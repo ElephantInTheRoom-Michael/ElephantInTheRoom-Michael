@@ -59,3 +59,6 @@ Will update config file upon install with installed path and current commit ID.
 
 Download zip to a temp directory, and move content from the unzipped projects addons directory to the 
 editing projects addons directory.
+
+Should add the directory with the addon to .gitignore so addon code doesn't clutter the diffs and 
+projects. Every dev will need to run install script when checking out repo for the first time.
