@@ -36,3 +36,16 @@ Retrieve metadata from live cookbook website for recipes and display in app form
 with similar features to website like cooking view.
 
 Manage food cost and nutrition data.
+
+# Simple Workflow Clients
+
+Create AWS SWF clients in Ruby, Kotlin, and Scala (Akka).
+
+# EV Driving
+
+Android App that connects to an OBD device while driving.
+
+Features:
+- Calculate expected consumption for a route, getting data from a map source and weather data
+- For every unit of travel check expected vs actual consumption
+- Show graph showing expected battery percent at each mile in drive, with upper and lower bounds
