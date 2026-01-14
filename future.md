@@ -49,3 +49,13 @@ Features:
 - Calculate expected consumption for a route, getting data from a map source and weather data
 - For every unit of travel check expected vs actual consumption
 - Show graph showing expected battery percent at each mile in drive, with upper and lower bounds
+
+# Godot Addons Manager
+
+Run a script to install Godot addons from GitHub
+
+Needs a config file with the GitHub URL to get the zip file, and optionally a commit or tagged version.
+Will update config file upon install with installed path and current commit ID.
+
+Download zip to a temp directory, and move content from the unzipped projects addons directory to the 
+editing projects addons directory.
